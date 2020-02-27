@@ -1,0 +1,191 @@
+{
+  "id": "gh/CU-0xff/deepcode-vuln-logviewer/8e9d99af9cc34da4a70cda47b36b7ee7026b19ff",
+  "results": {
+    "files": {
+      "/app.js": {
+        "0": [
+          {
+            "cols": [
+              11,
+              19
+            ],
+            "markers": [
+              {
+                "msg": [
+                  37,
+                  47
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      11,
+                      19
+                    ],
+                    "rows": [
+                      15,
+                      15
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              15,
+              15
+            ]
+          }
+        ]
+      },
+      "/routes/createDummyData.js": {
+        "3": [
+          {
+            "cols": [
+              1,
+              1000
+            ],
+            "markers": [],
+            "rows": [
+              4,
+              4
+            ]
+          }
+        ]
+      },
+      "/routes/index.js": {
+        "1": [
+          {
+            "cols": [
+              3,
+              26
+            ],
+            "markers": [
+              {
+                "msg": [
+                  20,
+                  26
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      3,
+                      26
+                    ],
+                    "rows": [
+                      17,
+                      17
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              17,
+              17
+            ]
+          }
+        ],
+        "2": [
+          {
+            "cols": [
+              20,
+              25
+            ],
+            "markers": [
+              {
+                "msg": [
+                  18,
+                  22
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      14,
+                      27
+                    ],
+                    "rows": [
+                      11,
+                      11
+                    ]
+                  },
+                  {
+                    "cols": [
+                      14,
+                      22
+                    ],
+                    "rows": [
+                      11,
+                      11
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  29,
+                  45
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      14,
+                      22
+                    ],
+                    "rows": [
+                      11,
+                      11
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  78,
+                  80
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      20,
+                      25
+                    ],
+                    "rows": [
+                      15,
+                      15
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              15,
+              15
+            ]
+          }
+        ]
+      }
+    },
+    "suggestions": {
+      "0": {
+        "id": "javascript%2Fdc%2FDisablePoweredBy",
+        "message": "Disable X-Powered-By header for your Express app (consider using Helmet middleware), because it exposes information about the used framework to potential attackers.",
+        "severity": 2
+      },
+      "1": {
+        "id": "javascript%2Fdc%2FPromiseNotCaughtNode",
+        "message": "No catch method for promise. This may result in an unhandled promise rejection.",
+        "severity": 2
+      },
+      "2": {
+        "id": "javascript%2Fdc%2FSqli",
+        "message": "Unsanitized input flows from an HTTP parameter and is used in an SQL query in get. This may result in an SQL Injection vulnerability.",
+        "severity": 3
+      },
+      "3": {
+        "id": "javascript%2Feslint%2Frequire-jsdoc",
+        "message": "Missing JSDoc comment.",
+        "severity": 1
+      }
+    }
+  },
+  "url": "https://www.deepcode.ai/app/gh/CU-0xff/deepcode-vuln-logviewer/8e9d99af9cc34da4a70cda47b36b7ee7026b19ff/_/%2F/code/"
+}
